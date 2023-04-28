@@ -78,7 +78,7 @@ main{
 .end{
     height: 100px;
     width: auto;
-    background-color: darkslategrey;
+    background-color: black;
 }
 
 img{
@@ -144,11 +144,14 @@ b{
     display: inline-block;
 }
 
-
 .sub-bar{
     display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    line-height: 25px;
 }
 
 h4{
     color: white;
+    padding-left: 5px;
 }
