@@ -12,3 +12,33 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* Temporaneo */
+.border{
+    border: 2px dashed black;
+}
+
+.nav{
+    display: flex;
+    height: 100px;
+    width: auto;
+    background-color: orange;
+}
+
+.goods{
+    display: flex;
+    min-height: 300px;
+    width: auto;
+    background-color: gainsboro;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3);
+}
+
+.end{
+    height: 100px;
+    width: auto;
+    background-color: darkslategrey;
+}
