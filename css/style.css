@@ -25,20 +25,32 @@ body{
     background-color: orange;
 }
 
+main{
+    padding: 50px 0;
+}
+
 .goods{
     display: flex;
     min-height: 300px;
     width: auto;
     background-color: gainsboro;
     flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
 }
 
 .card{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+    min-height: 300px;
 }
 
 .end{
     height: 100px;
     width: auto;
     background-color: darkslategrey;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
