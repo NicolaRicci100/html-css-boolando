@@ -1,3 +1,4 @@
+/* generiche */
 *{
     margin: 0;
     padding: 0;
@@ -14,15 +15,50 @@ body{
 }
 
 
-.nav{
-    display: flex;
-    height: 100px;
-    width: auto;
-    background-color: orange;
+header{
+    background-color: rgb(254,105,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
+.nav{
+    display: flex;
+    height: 80px;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 0 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* NON PERFETTAMENTE CENTRATO */
+.logo{
+    display: block;
+    width: 200px;
+}
+
+
+
+
+
+
 main{
-    padding: 50px 0;
+    margin: 150px 0 75px;
 }
 
 .goods{
@@ -31,7 +67,7 @@ main{
     width: auto;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card{
@@ -63,6 +99,7 @@ b{
     position: relative;
 }
 
+
 /* classi etichette */
 .chara{
     position: absolute;
@@ -88,6 +125,8 @@ b{
     font-size: 20px;
 }
 
+
+/* gestione overlay main */
 .heart:hover{
     color: red;
 }
@@ -103,4 +142,13 @@ b{
 
 .clothes:hover .overlay{
     display: inline-block;
+}
+
+
+.sub-bar{
+    display: flex;
+}
+
+h4{
+    color: white;
 }
